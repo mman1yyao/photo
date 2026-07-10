@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>曼曼和小胖</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","PingFang SC","Microsoft YaHei",sans-serif;
+    background:#fff;
+    color:#111;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    text-align:center;
+}
+
+.name{
+    font-size:56px;
+    font-weight:300;
+    letter-spacing:2px;
+    line-height:1.5;
+    opacity:0;
+    animation:fade 1s forwards;
+}
+
+.and{
+    margin:12px 0;
+    font-size:26px;
+    color:#777;
+    opacity:0;
+    animation:fade .8s .4s forwards;
+}
+
+.button{
+    display:inline-block;
+    margin-top:80px;
+    text-decoration:none;
+    color:#111;
+    border:1px solid #ddd;
+    padding:15px 42px;
+    border-radius:999px;
+    font-size:18px;
+    transition:.3s;
+}
+
+.button:hover{
+    background:#111;
+    color:#fff;
+    transform:translateY(-2px);
+}
+
+@keyframes fade{
+    from{
+        opacity:0;
+        transform:translateY(12px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="name">
+曼曼
+</div>
+
+<div class="and">
+&
+</div>
+
+<div class="name">
+小胖
+</div>
+
+<a class="button" href="#">
+进入相册 →
+</a>
+
+</div>
+
+</body>
+</html>
