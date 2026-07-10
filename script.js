@@ -4,7 +4,7 @@
 // =============================
 
 // ↓↓↓ 以后只需要把这里改成你的相册链接 ↓↓↓
-const albumUrl = "#";
+const albumUrl = "https://share.weiyun.com/tpcHNjoM";
 // 例如：
 // const albumUrl = "https://你的相册链接";
 
